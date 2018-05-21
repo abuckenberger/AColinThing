@@ -46,36 +46,18 @@ function removeTransition(e) {
 <!-- sounds are being bound to data-keys via javascript  -->
 
 <!-- Keys -->
-
-    <ul>    
-    
-    {% for post in site.posts %}
-    
-    <li> {{ post.title }} </li>
-    
-    {% endfor %}
-        
-    </ul>
-
-    {% for post in site.posts %} 
-
-<div class="keys">
+<!-- Keys -->
+{% for post in site.posts %}
   
+    <div class="keys">
+      <div data-key="{{ post.keycode }}" class="key">
+        <span class="sound"> {{ post.title }} </span>
+      </div>
+  </div>
+  <!-- Sounds -->
+  <audio data-key="{{ post.keycode }}" src="{{ post.file }}"></audio>
   
-    <div data-key="{{ post.keycode }}" class="key">
-        
-      <kbd>G</kbd>
-      <span class="sound">{{post.title}}</span>
-        
-    </div>
-    
-      <audio data-key="{{ post.keycode }}" src="{{ post.file }}"></audio>
-
-  
-</div>
-    
-    {% endfor %}
-
+{% endfor %}
 
 
 
