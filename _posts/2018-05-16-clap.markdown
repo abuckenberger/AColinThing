@@ -5,4 +5,4 @@ file: "/uploads/clap.wav"
 keycode: 71
 ---
 
-A clapping sound
+A clapping sound.
