@@ -1,7 +1,8 @@
 ---
-title: New Sound
+title: Wow
 date: 2018-05-21 22:16:00 Z
-file: "/uploads/boom.wav"
-keycode: 65
+file: "/uploads/tasmanian-devil-daniel_simon.mp3"
+keycode: 70
 ---
 
+Wow.
