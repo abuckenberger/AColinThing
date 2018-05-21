@@ -2,5 +2,6 @@
 title: New Sound
 date: 2018-05-21 22:16:00 Z
 file: "/uploads/boom.wav"
+keycode: 65
 ---
 
