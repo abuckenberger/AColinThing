@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>A Colin Thing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
 
-<style>
-.key {
+    <style>
+        .key {
   border: 2px solid black;
   width: 100px;
   height: 100px;
+  
   text-align: center;
   line-height: 100px;
 }
-</style>
+    </style>
 
-<script>
-
-function playSound(e) {
+    <script>
+        function playSound(e) {
  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
  
   if (!audio) 
   return; // stop the function
- 
+  
+  console.log(key);
+  
  audio.currentTime = 0; // rewind to the start 
  audio.play();
  key.classList.add('playing');
@@ -38,18 +42,15 @@ function removeTransition(e) {
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
 
-</script>
+    
+    </script>
 
 </head>
 <body>
-    
-<!-- sounds are being bound to data-keys via javascript  -->
 
 <!-- Keys -->
-<!-- Keys -->
 {% for post in site.posts %}
-  
-    <div class="keys">
+  <div class="keys">
       <div data-key="{{ post.keycode }}" class="key">
         <span class="sound"> {{ post.title }} </span>
       </div>
@@ -57,13 +58,10 @@ function removeTransition(e) {
   <!-- Sounds -->
   <audio data-key="{{ post.keycode }}" src="{{ post.file }}"></audio>
   
+    
 {% endfor %}
+    
 
-
-
-<!-- Sounds -->
-<audio data-key="71" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1145795/clap.wav"></audio>
-<audio data-key="66" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1147877/boom.wav"></audio>
-
+    
 </body>
 </html>
