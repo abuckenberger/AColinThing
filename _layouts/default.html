@@ -62,11 +62,15 @@ function removeTransition(e) {
 <div class="keys">
   
   
-    <div data-key="{{ keycode }}" class="key">
+    <div data-key="{{ post.keycode }}" class="key">
+        
       <kbd>G</kbd>
       <span class="sound">{{post.title}}</span>
+        
     </div>
-  
+    
+      <audio data-key="{{ post.keycode }}" src="{{ post.file }}"></audio>
+
   
 </div>
     
