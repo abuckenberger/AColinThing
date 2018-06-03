@@ -1,13 +1,13 @@
 // Your Scripts
 console.log('Hey Browser!');
 
-var words = ['hey', 'whats up', 'hello', 'hola', 'yo'];
+var words = ['Check Check', 'Lets get started', 'See - Not a Colin Thing', 'Tough Nuggies', 'Thats another class'];
 var colors = [
-  [63, 184, 175],
-  [127, 199, 175],
-  [218, 216, 167],
-  [255, 158, 157],
-  [255, 61, 127],
+  [140, 66, 244],
+  [109, 34, 214],
+  [92, 39, 165],
+  [67, 22, 130],
+  [52, 8, 114],
 ];
 
 function setup() {
@@ -22,6 +22,6 @@ function draw() {
   var currentWord = words[currentIndex];
   background(currentColor);
   fill(255);
-  textSize(45);
+  textSize(100);
   text(currentWord, width / 2, height / 2);
 }
