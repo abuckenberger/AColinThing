@@ -9,22 +9,6 @@ var colors = [
   [52, 8, 114],
 ];
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  textAlign(CENTER, CENTER);
-  frameRate(3);
-}
-
-function draw() {
-  var currentIndex = frameCount % colors.length;
-  var currentColor = colors[currentIndex];
-  var currentWord = words[currentIndex];
-  background(currentColor);
-  fill(255);
-  textSize(100);
-  text(currentWord, width / 2, height / 2);
-}
-
 var angle = 0.0;
 var offset = 100;
 var scalar = 15;
@@ -42,14 +26,20 @@ var colors = [
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  //leaves a train bg loaded once
-  background("lavender");
-  frameRate(1500);
+  textAlign(CENTER, CENTER);
+  frameRate(3);
 }
 
 function draw() {
-  
   var currentIndex = frameCount % colors.length;
+  var currentColor = colors[currentIndex];
+  var currentWord = words[currentIndex];
+  background(currentColor);
+  fill(255);
+  textSize(100);
+  text(currentWord, width / 2, height / 2);
+    
+    var currentIndex = frameCount % colors.length;
   var currentColor = colors[currentIndex];
   var x = offset + cos(angle) * scalar;
   var y = offset + sin(angle) * scalar;
@@ -57,5 +47,4 @@ function draw() {
   angle += speed;
   fill(currentColor);
   strokeWeight(.1);
-  
 }
