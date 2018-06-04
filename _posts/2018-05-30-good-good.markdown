@@ -1,8 +1,8 @@
 ---
-title: Good Good
+title: Tough Nuggies
 date: 2018-05-30 20:19:00 Z
-file: "/uploads/airplane-landing_daniel_simion.wav"
+file: "/uploads/nuggies.m4a"
 keycode: 39
 ---
 
-Good, good?
+Tough nuggies.
