@@ -3,7 +3,11 @@
 
 // Your Styles
 
-body{
-
-    color: red;
+@font-face {
+    font-family: "Redacted";
+    src: url("assets/fonts/redacted-regular.ttf"); 
+    src: url("redacted-font/fonts/web/redacted-regular.woff2") format("woff2"),
+         url("redacted-font/fonts/web/redacted-regular.woff") format("woff"),
+         url("redacted-font/fonts/web/redacted-regular.otf") format("opentype"),
+         url("redacted-font/fonts/web/redacted-regular.svg#filename") format("svg");
 }
