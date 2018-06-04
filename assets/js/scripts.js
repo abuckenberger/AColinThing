@@ -13,16 +13,7 @@ var angle = 0.0;
 var offset = 100;
 var scalar = 15;
 var speed = 0.75;
-var colors = [
-  [150, 30, 100],
-  [200, 20, 75],
-  [218, 10, 100],
-  [255, 158, 157],
-  [255, 61, 127],
-  [255, 50, 110],
-  [255, 30, 90],
-  [100, 0, 25],
-];
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -39,12 +30,11 @@ function draw() {
   textSize(100);
   text(currentWord, width / 2, height / 2);
     
-    var currentIndex = frameCount % colors.length;
-  var currentColor = colors[currentIndex];
+  
   var x = offset + cos(angle) * scalar;
   var y = offset + sin(angle) * scalar;
   ellipse( mouseX, mouseY, x, y);
   angle += speed;
-  fill(currentColor);
+  fill("blue");
   strokeWeight(.1);
 }
