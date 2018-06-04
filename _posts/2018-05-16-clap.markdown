@@ -1,8 +1,8 @@
 ---
-title: Clap
+title: Another Class
 date: 2018-05-16 22:39:00 Z
-file: "/uploads/clap.wav"
+file: "/uploads/another-class.m4a"
 keycode: 32
 ---
 
-A clapping sound.
+Another class.
