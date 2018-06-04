@@ -31,10 +31,11 @@ function draw() {
   text(currentWord, width / 2, height / 2);
     
   
-  var x = offset + cos(angle) * scalar;
-  var y = offset + sin(angle) * scalar;
-  ellipse( mouseX, mouseY, x, y);
-  angle += speed;
-  fill("blue");
-  strokeWeight(.1);
+//tried adding in draw on mouse movement - needs work
+  //var x = offset + cos(angle) * scalar;
+ // var y = offset + sin(angle) * scalar;
+  //ellipse( mouseX, mouseY, x, y);
+  //angle += speed;
+  //fill("blue");
+ // strokeWeight(.1);
 }
