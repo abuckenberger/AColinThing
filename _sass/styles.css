@@ -1,4 +1,5 @@
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
+@import url("https://blokkfont-losgordos.netdna-ssl.com/v2/blokkfont.css");
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -9500,8 +9501,8 @@ label.panel-block:hover {
   src: url("/assets/fonts/web/redacted-regular.eot");
   src: url("/assets/fonts/web/redacted-regular.woff2") format("woff2"), url("/assets/fonts/web/redacted-regular.woff") format("woff"), url("/assets/fonts/web/redacted-regular.otf") format("opentype"), url("/assets/fonts/web/redacted-regular.svg#filename") format("svg"); }
 
-/* line 16, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
+/* line 18, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
 * {
-  font-family: 'Redacted'; }
+  font-family: "BLOKK"; }
 
 /*# sourceMappingURL=styles.css.map */
