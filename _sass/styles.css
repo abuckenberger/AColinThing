@@ -9501,7 +9501,7 @@ label.panel-block:hover {
   src: url("/assets/fonts/web/redacted-regular.woff2") format("woff2"), url("/assets/fonts/web/redacted-regular.woff") format("woff"), url("/assets/fonts/web/redacted-regular.otf") format("opentype"), url("/assets/fonts/web/redacted-regular.svg#filename") format("svg"); }
 
 /* line 16, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
-body {
+* {
   font-family: 'Redacted'; }
 
 /*# sourceMappingURL=styles.css.map */
