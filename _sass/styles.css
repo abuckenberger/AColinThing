@@ -9497,11 +9497,11 @@ label.panel-block:hover {
 /*# sourceMappingURL=bulma.css.map */
 @font-face {
   font-family: "Redacted";
-  src: url("assets/fonts/redacted-regular.ttf");
-  src: url("redacted-font/fonts/web/redacted-regular.woff2") format("woff2"), url("redacted-font/fonts/web/redacted-regular.woff") format("woff"), url("redacted-font/fonts/web/redacted-regular.otf") format("opentype"), url("redacted-font/fonts/web/redacted-regular.svg#filename") format("svg"); }
+  src: url("/assets/fonts/web/redacted-regular.eot");
+  src: url("/assets/fonts/web/redacted-regular.woff2") format("woff2"), url("/assets/fonts/web/redacted-regular.woff") format("woff"), url("/assets/fonts/web/redacted-regular.otf") format("opentype"), url("/assets/fonts/web/redacted-regular.svg#filename") format("svg"); }
 
-/* line 15, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
+/* line 16, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
 body {
-  background: yellow; }
+  font-family: 'Redacted'; }
 
 /*# sourceMappingURL=styles.css.map */
