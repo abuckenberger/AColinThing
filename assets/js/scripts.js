@@ -1,6 +1,6 @@
 // Your Scripts
 
-var words = ['Check Check', 'Lets get started', 'See - Not a Colin Thing', 'Tough Nuggies', 'Thats another class'];
+var words = ['Ch$cK Ch*!?', 'Lets get st@R73D', 'See - N0t @ COl1N Th1n6', 'T0Ugh NuGG1e5', 'Th*t5 an0th3r cl@5?'];
 var colors = [
   [140, 66, 244],
   [109, 34, 214],
