@@ -9496,12 +9496,7 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem; }
 
 /*# sourceMappingURL=bulma.css.map */
-@font-face {
-  font-family: "Redacted";
-  src: url("/assets/fonts/web/redacted-regular.eot");
-  src: url("/assets/fonts/web/redacted-regular.woff2") format("woff2"), url("/assets/fonts/web/redacted-regular.woff") format("woff"), url("/assets/fonts/web/redacted-regular.otf") format("opentype"), url("/assets/fonts/web/redacted-regular.svg#filename") format("svg"); }
-
-/* line 18, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
+/* line 9, /Users/abigailbuckenberger/Desktop/AColinThing/_sass/styles.scss */
 * {
   font-family: "BLOKK"; }
 
